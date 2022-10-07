@@ -1,0 +1,11 @@
+button {
+  width: 158px;
+  height: 59px;
+  background: #55a5db;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Sora";
+  border: none;
+}

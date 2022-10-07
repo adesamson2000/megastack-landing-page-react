@@ -1,0 +1,142 @@
+.header-container {
+  background-image: url("../public/images/Group1.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.header-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sora";
+  gap: 32px;
+
+  width: 100%;
+}
+
+.headline {
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+
+  width: 80%;
+  /* height: 291px; */
+  height: 180px;
+  font-weight: 600;
+  font-size: 60px;
+  color: #25284b;
+  margin-top: 128px;
+  /* margin-bottom: 32px; */
+}
+
+.sub-heading {
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin-top: 200px;
+  height: 120px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #25284b;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  /* margin-top: 10%; */
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  /* padding: 0 130px; */
+}
+
+.title {
+  font-family: "Sora";
+  font-weight: 600;
+  font-size: 30px;
+  color: #111222;
+  width: 374px;
+  height: 40px;
+}
+
+.info {
+  font-family: "Sora";
+  color: #111222;
+  font-weight: 300;
+  font-size: 16px;
+  width: 374px;
+  height: 112px;
+}
+
+@media screen and (min-width: 600px) {
+  .header-container {
+    background: rgba(255, 255, 255, 0.6);
+    background-image: url("../public/images/Group1.png");
+    background-size: cover;
+    height: 64.5rem;
+    /* width: 108rem; */
+    width: 100%;
+  }
+
+  .header-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Sora";
+    gap: 32px;
+  }
+  .headline {
+    width: 974px;
+    height: 291px;
+    margin-bottom: 32px;
+    font-size: 88px;
+  }
+  .sub-heading {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 974px;
+    margin-top: 32px;
+    font-size: 32px;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    margin-top: 0%;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 155px;
+    padding: 0 130px;
+  }
+  .title {
+    font-size: 44px;
+    height: 53px;
+  }
+
+  .info {
+    font-size: 16px;
+  }
+}
